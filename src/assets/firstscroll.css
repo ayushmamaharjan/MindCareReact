@@ -1,0 +1,66 @@
+/* Mission.css */
+/* .mission {
+  text-align: center;
+  padding: 80px 100px;
+  background-color: #e9f0f7;
+}
+
+.mission h2 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+.mission p {
+  max-width: 700px;
+  margin: 0 auto 20px;
+  font-size: 1.1rem;
+}
+
+.icon {
+  font-size: 2.5rem;
+  margin-top: 15px;
+} */
+
+.mission-section {
+  position: relative;
+  width: 100%;
+  height: 470px;
+  margin-top: 0;
+  padding-top: 0;
+  background-image: url('/mission.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+  padding-left: 69% ;
+  margin: 0; /* 👈 Remove any default margin */
+  box-sizing: border-box;
+  overflow: hidden; /* Prevent scrollbars from image overflow */
+}
+
+
+.mission-content {
+  text-align: center; /* Align text to the right */
+  color: white;
+  max-width: 600px;
+  padding: 10px;
+}
+
+.mission-content h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  padding-top: 60px;
+}
+
+.mission-content p {
+  font-size: 22px;
+  line-height: 1.6;
+  font-weight: 200;
+  padding-left: 10px;
+  border-left: 3px solid white;
+}

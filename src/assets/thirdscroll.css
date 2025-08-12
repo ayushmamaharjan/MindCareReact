@@ -1,0 +1,99 @@
+.stories-section {
+  background-color: #eaf2fc;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 20px;
+  text-align: center;
+  padding-top: 25px;
+  /* margin-top: 25px; */
+  padding-bottom: 35px;
+  position: relative;  /* for arrow to be positioned relative to section */
+}
+
+.stories-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.stories-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.stories-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  flex-wrap: nowrap;
+  overflow: hidden; 
+}
+
+.hope-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.hope-card:hover {
+  transform: translateY(-5px);
+}
+
+.story-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.story-date {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 10px;
+}
+
+.story-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 10px 0 20px;
+  color: #000;
+}
+
+.read-blog-btn {
+  display: inline-block;
+  background: #4a90e2;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.read-blog-btn:hover {
+  background: #357abd;
+  color: white;
+}
+
+.arrow-btn {
+  background: #4a90e2;
+  border: none;
+  color: white;
+  border-radius: 20%;
+  width: 40px;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: background 0.3s ease;
+}
+
+.arrow-btn:hover {
+  background: #357abd;
+} 

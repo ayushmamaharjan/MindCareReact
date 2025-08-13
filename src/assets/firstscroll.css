@@ -37,9 +37,9 @@
   justify-content: flex-end;
   padding: 0 20px;
   padding-left: 69% ;
-  margin: 0; /* 👈 Remove any default margin */
+  margin: 0; 
   box-sizing: border-box;
-  overflow: hidden; /* Prevent scrollbars from image overflow */
+  overflow: hidden; 
 }
 
 

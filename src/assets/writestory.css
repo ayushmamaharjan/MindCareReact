@@ -2,7 +2,7 @@
 .container {
   font-family: Arial, sans-serif;
   background-color: #f7f8fa;
-  min-height: 100vh; /* optional: ensure container fills viewport at minimum */
+  min-height: 100vh; 
   padding-bottom: 20px;
   box-sizing: border-box;
   display: flex;

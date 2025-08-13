@@ -80,7 +80,7 @@
   margin: 8px 0;
   line-height: 1.4;
   white-space: normal; /* allow wrapping */
-  word-break: break-word; /* break long words if needed */
+  word-break: break-word; 
   text-align: center;
   color: black;
 }
@@ -91,7 +91,7 @@
 
 .story-image {
   width: 100%;
-  height: 150px; /* adjust as needed */
+  height: 150px; 
   object-fit: cover;
   border-radius: 6px;
   margin-bottom: 10px;
